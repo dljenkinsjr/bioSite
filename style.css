@@ -1,18 +1,19 @@
 body{
     margin: auto;
     font-family: 'Noto Sans JP', sans-serif;
-     background-image: linear-gradient(to bottom , #686669, #686669, #eaeaea);
+     background-image: linear-gradient(to bottom , #E0E9FF, #E0E9FF, #92ABFC);
+    color: #403236;
 }
 
 nav a{
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
-    color: #686669;
+    color: #403236;
 }
 
 nav a:hover{
-    color: #000000;
+    color: #92ABFC;
 }
 
 nav ul li{
@@ -30,6 +31,7 @@ nav{
 
 #banner{
     float: right;
+    opacity: .4;
 }
 
 
@@ -39,14 +41,12 @@ h1{
     font-weight: 700;
 }
 
-.paragraph img{
-    float: right;
-    padding: 4px;
-    opacity: .2;
-}
 
 .paragraph{
-padding: 50px 140px 50px 140px;
+    padding: 50px 140px 50px 140px;
+    background-color: #ffffff;
+    max-width: 675px;
+    min-width: 200px;
 }
 
 p{
@@ -61,7 +61,8 @@ p{
 #collage li{
     display: inline-block;
     padding: 8px;
-    opacity: .2;
+    opacity: .3;
+    border-collapse: collapse;
 }
 
 #collage{
@@ -71,6 +72,7 @@ p{
     
 }
 
+
 footer {
     font-style: italic;
     font-size: 1em;
@@ -79,3 +81,14 @@ footer {
     margin: 0;
 }
 
+main img{
+  -moz-box-shadow:    2px 2px 3px 4px #403236;
+  -webkit-box-shadow: 2px 2px 3px 4px #403236;
+  box-shadow:         2px 2px 3px 4px #403236;
+}
+
+#right{
+    float: right;
+    padding: 30px;
+    opacity: .3;
+}
