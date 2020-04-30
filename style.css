@@ -1,8 +1,7 @@
 body{
     margin: auto;
     font-family: 'Noto Sans JP', sans-serif;
-     background-image: linear-gradient(to bottom , #E0E9FF, #E0E9FF, #92ABFC);
-    color: #403236;
+
 }
 
 nav a{
@@ -27,26 +26,19 @@ nav{
     padding: 15px 175px 15px 0px;
     background: #fff;
     
+    
 }
 
 #banner{
-    float: right;
-    opacity: .4;
+    text-align: center;
+    opacity: .6;
 }
 
 
 h1{
-    padding-left: 120px;
+    padding-left: 240px;
     font-size: 3.052em;
     font-weight: 700;
-}
-
-
-.paragraph{
-    padding: 50px 140px 50px 140px;
-    background-color: #ffffff;
-    max-width: 675px;
-    min-width: 200px;
 }
 
 p{
@@ -54,22 +46,48 @@ p{
     font-weight: 400;
 }
 
+
 .clear{
     clear: both;
 }
 
-#collage li{
-    display: inline-block;
-    padding: 8px;
-    opacity: .3;
-    border-collapse: collapse;
+
+.paragraph{
+    padding: 70px 50px 170px 50px;
+    background-image: linear-gradient(to bottom , #E0E9FF, #E0E9FF, #92ABFC);
+    color: #403236;
+    max-width: 950px;
+    min-width: 200px;
+    margin: auto;
+    box-shadow: 12px 12px 2px 1px rgba(145, 61, 136, .2);
 }
 
-#collage{
-    text-align: center;
-    padding: 4px;
-   
+.paragraph img{
+   opacity: .6;
+   padding: 15px;
+}
+
+.paragraph2{
+    padding: 70px 50px 70px 50px;
+    background-image: linear-gradient(to bottom , #E0E9FF, #E0E9FF, #92ABFC);
+    color: #403236;
+    max-width: 950px;
+    min-width: 200px;
+    margin: auto;
+    box-shadow: 12px 12px 2px 1px rgba(145, 61, 136, .2);
     
+}
+
+
+#left{
+    float: right;
+    padding: 15px;
+}
+
+
+.paragraph2 img{
+    padding: 5px;
+    opacity: .6;
 }
 
 
@@ -79,16 +97,4 @@ footer {
     text-align: center;
     padding: 1px;
     margin: 0;
-}
-
-main img{
-  -moz-box-shadow:    2px 2px 3px 4px #403236;
-  -webkit-box-shadow: 2px 2px 3px 4px #403236;
-  box-shadow:         2px 2px 3px 4px #403236;
-}
-
-#right{
-    float: right;
-    padding: 30px;
-    opacity: .3;
 }
