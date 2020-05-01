@@ -1,7 +1,14 @@
 body{
     margin: auto;
     font-family: 'Noto Sans JP', sans-serif;
+    background-image: linear-gradient(to bottom , #92ABFC, #E0E9FF, #E0E9FF);
 
+}
+
+#container{
+   background-color: #ffffff;
+   max-width: 90%;
+   margin: auto
 }
 
 nav a{
@@ -105,7 +112,13 @@ footer {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+    
+    #container{
+   background-color: #ffffff;
+   max-width: 100%;
+   margin: auto
+}
     
     #banner{
     text-align: center;
