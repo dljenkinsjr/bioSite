@@ -1,3 +1,8 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: auto;
     font-family: 'Noto Sans JP', sans-serif;
@@ -12,29 +17,42 @@ body{
    margin: auto;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 90%;
+    height: 60px;
+    background-color: #333;
+}
+
 nav a{
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
-    color: #403236;
+    color: #fff;
+    margin-left: 25px; 
+    padding: 20px;
 }
 
+
 nav a:hover{
-    color: #92ABFC;
+    background-color: #fff;
+    color: #333;
 }
+
+.hover{
+   transition: ease .7s; 
+}
+
 
 nav ul li{
     list-style-type: none;
     display: inline;
-    padding-left: 20px;
 }
 
 nav{
-    text-align: right;
-    padding: 15px 175px 15px 0px;
-    background: #fff;
-    
-    
+    display: block;
 }
 
 #banner{
@@ -42,8 +60,11 @@ text-align: center;
 opacity: .6;
 }
 
+
 #banner img{
-    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
     
 }
 
@@ -52,6 +73,7 @@ h1{
     padding-left: 240px;
     font-size: 3.052em;
     font-weight: 700;
+    text-align: left;
 }
 
 p{
@@ -79,7 +101,8 @@ p{
    opacity: .6;
    padding: 15px;
    float: right;
-   max-width: 100%;
+   width: auto;
+   height: auto;
 }
 
 .paragraph2{
@@ -98,8 +121,40 @@ p{
 .paragraph2 img{
     padding: 5px;
     opacity: .6;
-    max-width: 75%;
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    
 }
+
+
+main .top{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    width: 150px;
+}
+
+main a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #92ABFC;
+    box-shadow: 12px 12px 2px 1px rgba(145, 61, 136, .2);
+}
+
+main a:hover{
+    color: #403236;
+    background-color: #E0E9FF;
+}
+
+.top{
+    transition: ease .7s; 
+}
+
+
 
 
 footer {
@@ -121,10 +176,20 @@ footer {
    margin: auto
 }
     
-    #banner{
-    text-align: center;
-    opacity: .6;
-}
+    
+    nav{
+    text-align: left;
+    }
+    
+    nav a{
+      margin-left: 10px;
+    }
+    
+    
+    header{
+        width: 100%;
+    }
+    
     
    .paragraph img{
      opacity: .6;
@@ -133,9 +198,10 @@ footer {
 }
     
     h1{
-     padding-left: 100px;
+     padding-left: 0px;
      font-size: 3.052em;
      font-weight: 700;
+     text-align: center;
 }
     
 
@@ -144,5 +210,6 @@ footer {
     opacity: .6;
     max-width: 60%;
 }
+    
  
 }
