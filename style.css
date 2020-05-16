@@ -5,7 +5,7 @@ html{
 
 body{
     margin: auto;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Rubik', sans-serif;
     background-image: url(images/background.jpg);
     background-repeat: no-repeat;
 
@@ -15,6 +15,7 @@ body{
    background-color: #ffffff;
    max-width: 90%;
    margin: auto;
+   border:5px solid #333;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
     top: 0;
     z-index: 9999;
     width: 90%;
-    height: 60px;
+    height: 55px;
     background-color: #333;
 }
 
@@ -61,8 +62,9 @@ opacity: .6;
 }
 
 
-#banner img{
+.responsive{
     width: auto;
+    max-width: 566;
     height: auto;
     margin-top: 50px;
     
@@ -185,6 +187,13 @@ footer {
       margin-left: 10px;
     }
     
+    .responsive{
+    max-width: 65%;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
     
     header{
         width: 100%;
